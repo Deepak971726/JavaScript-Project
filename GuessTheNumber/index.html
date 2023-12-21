@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Guessing-number-game</title>
+</head>
+<style>
+    
+   nav{
+       text-align: center;
+   }
+   nav a{
+       display: inline-block;
+       padding-top: 10px;
+       width: 30vh;
+       height: 5vh;
+       color: black;
+       text-decoration: none;
+       border: 2px solid rgb(0, 0, 0);
+       background-color: rgb(230, 225, 225);
+       /* justify-content: center; */
+
+   }
+   
+   h1{
+       text-align: center;
+       color: white;
+   }
+   
+   body{
+       background-color: rgb(129, 128, 128);
+   }
+   .top{
+    /* margin: auto;; */
+    width: auto;
+   padding-left: 20px;
+   padding-right: 10px;
+    background-color: black;
+    color: white;
+   }
+   p{
+    text-align: center;
+    justify-content: center;
+    color: white;
+   }
+   .center{
+    /* justify-content: center; */
+    text-align: center;
+        /* margin: auto; */
+        /* padding: auto; */
+   }
+button{
+    width: 20vh;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    height: 4vh;
+    border-radius: 10px;
+}
+</style>
+<body>
+   
+   <nav>
+       <a href="/">Home</a>
+       <a href="goolge.com" target="_blank" rel="noopener noreferrer">Google</a>
+   </nav>
+   <div class="top">
+    <h1>Number Guessing Game</h1>
+   </div>
+   <p>
+        Try and guess a random number between 1 and 100.<br>
+        You have 10 attempts to guess the right number.
+   </p>
+   <h1>Guess the Number</h1>
+<div class="center">
+    <form>
+        <p><label>Enter a number </label><input type="text" id="number"></p>
+        <!-- <br> -->
+        <div class="sumbit">
+
+            <button>Submit</button>
+        </div>
+    </form>
+    <!-- <input type="text"> -->
+
+    <div class="previous" style="color: white">
+        <p>Previously Guesses number</p>
+    </div>
+    <div class="attemptleft" style="color: white">
+        
+        <!-- <span style="color:white">Remaining attemps</span> <spam style="color:white">10</spam> -->
+        <p>Remaining attemps: 10</p>
+    </div>
+    <div class="sugg" style="color:white">
+
+    </div>
+</div>
+   
+   <script src="c.js"></script>
+</body>
+ 
+ 
+</html>
