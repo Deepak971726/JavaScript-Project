@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dgital-Clock</title>
+</head>
+<style>
+    .center{
+        display: flex;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+   nav{
+       text-align: center;
+   }
+   nav a{
+       display: inline-block;
+       padding-top: 10px;
+       width: 30vh;
+       height: 5vh;
+       color: black;
+       text-decoration: none;
+       border: 2px solid rgb(0, 0, 0);
+       background-color: rgb(230, 225, 225);
+       /* justify-content: center; */
+
+   }
+   .clock{
+    display: flex;
+    background-color: rgb(177, 181, 181);
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+   }
+   h1{
+       text-align: center;
+   }
+   
+   body{
+       background-color: rgb(194, 194, 194);
+   }
+</style>
+<body>
+   
+   <nav>
+       <a href="/">Home</a>
+       <a href="goolge.com" target="_blank" rel="noopener noreferrer">Google</a>
+   </nav>
+
+   <h1> Digital Clock</h1>
+   <div class="center">
+        <div id="banner"> Your Locak Time</div>
+        <div class = "clock" id="time">
+                 
+        </div>
+        <div class="clock" id="date">
+
+        </div>
+
+   </div>
+   <script src="c.js"></script>
+</body>
+ 
+ 
+</html>
