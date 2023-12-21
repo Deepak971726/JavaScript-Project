@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Background Color Swithcher</title>
+</head>
+<style>
+    nav{
+      padding: auto;
+      margin: 10px;
+      background-color: #CCCCCC;
+	  overflow: hidden;
+	  /* width: 700px; */
+	   
+    }
+    nav a{
+        float: left;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+    }
+    .canvas{
+        margin: auto;
+        width: 50%;
+        /* border: 3px solid green; */
+        padding: 10px;
+        width: 80vh;
+        height: 60vh;
+        /* background-color: violet; */
+    }
+    .botton{
+        display: inline-flex;
+        /* text-align: center; */
+        justify-content: center;
+        /* text-align: center; */
+        border: 3px solid black;
+        width: 100px;
+        /* position: absolute; */
+        height: 100px;
+        /* margin-left: 100px; */
+        /* pointer-events: none; */
+        /* margin-top: 50px; */
+        padding: 10px;
+        /* background-color: rgb(210, 30, 30); */
+    }
+    #grey{
+        background-color: gray;
+    }
+    #white{
+        background-color: white;
+    }
+    #blue{
+        background-color: blue;
+    }
+    #yellow{
+        background-color: yellow;
+    }
+
+</style>
+<body>
+    <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a target="_blank" href="https://www.google.com">Google</a>
+
+    </nav>
+
+    <div class="canvas">
+        <h1>Color Scheme Switcher</h1>
+        <span class="botton" id="grey">grey</span>
+        <span class="botton" id="white">white</span>
+        <span class="botton" id="blue">blue</span>
+        <span class="botton" id="yellow">yellow</span>
+        <h2>
+            Try clicking on onw of the colors above 
+            <span> to change the Background color of this page!</span>
+        </h2>
+    </div>
+</body>
+<script src="java.js"></script>
+</html>
